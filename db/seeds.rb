@@ -10,58 +10,42 @@ User.create(name: "TestUser")
 
 Bike.create([
   {
-    brand: "Ducati",
-    model: "Monster SP",
-    photo: "https://images.ctfassets.net/x7j9qwvpvr5s/2DFD4d569TegcMRxUH8wLy/5973feabf0df731afdfdda82ed8d6caa/MONSTER_SP_TURNTABLE_00.png?w=1920&fm=webp&q=95",
+    brand: "Hytera",
+    model: "PNC 360",
+    photo: "https://www.hytera.la/images/PNC360S_front-1.png",
     power: '111',
     weight: 166,
     price: 110,
-    description: "The Monster range grows with the SP version, designed to enhance fun, thanks to technical equipment perfect for those who love sporty riding and embellish style with the Moto GP-inspired livery."
+    description: "La radio PoC (PTT Over Cellular) opera a través de la red de banda ancha 3G, 4G y LTE para transmitir información al instante con un solo botón. Es la opción perfecta para supermercados, logística, hoteles, manufactura, gestión urbana y más.
+    Posee una batería de 4000 mAh para más de 20 horas de trabajo contínuo con puerto de entrada tipo C, certificado IP67 y MIL-STD-810H para resistir las condiciones más desafiantes y bluetooth para conectar accesorios como manos libres y protectores de oídos.
+    "
   },
   {
-    brand: "Ducati",
-    model: "Multistrada V4 Rally",
-    photo: "https://images.ctfassets.net/x7j9qwvpvr5s/2VZgctf0yUAly2md6gc1Ac/fcef1cda0e65d0173fdedca81157fa52/MSV4_RALLY_RED_47.png?w=1920&fm=webp&q=95",
+    brand: "Hytera",
+    model: "PNC 370",
+    photo: "https://hytera-europe.com/imager/images/14281/PNC370_f9d35c2e75cded6d5435415681c0a155.png",
     power: 170,
     weight: 227,
     price: 200,
-    description: "The new Multistrada V4 Rally is the ideal travel companion in all conditions, as easy and intuitive in the urban jungle as it is on the most daring off-road routes."
+    description: "Para mejorar la productividad y la eficiencia, muchas organizaciones están adoptando Push-To-Talk sobre redes 3G/4G/WiFi, que proporciona comunicaciones instantáneas con gran cobertura y conectividad nacional o internacional."
   },
   {
-    brand: "Ducati",
-    model: "Diavel V4",
-    photo: "https://images.ctfassets.net/x7j9qwvpvr5s/1dL0ilx4g9eUV1NHfvLeHE/ca7707e59bab41e8a6181ce9f9a84aaf/SPIN_DIAVEL_V4_RED.01.png?w=1920&fm=webp&q=95",
+    brand: "Hytera",
+    model: "PNC 380",
+    photo: "https://images.hytera.us/images/PNC380_Highlights.png?auto=compress%2Cformat&fit=max&h=460&q=80&w=830&s=22d1c252ae5cbe1eedb724c1557819e5",
     power: 168,
     weight: 211,
     price: 180,
-    description: "Muscular, sporty, exaggerated and elegant at the same time, able to magnetize attention in any context, Diavel V4 synthesizes seemingly distant technical, dynamic and stylistic features, such as those of sport nakeds and muscle cruisers."
+    description: "El Radio PoC PNC380 de Hytera es una dispositivo pulsar para hablar sobre celular que combina las comunicaciones instantáneas y las aplicaciones multimedia en un único dispositivo. Capaz de operar sobre redes 2G, 3G, 4G y Wi-Fi, este PoC le ofrece servicios ricos en datos como transmisión de datos y video 4G, compartición de localización y mensajería instantánea."
   },
   {
-    brand: "Ducati",
-    model: "DesertX",
-    photo: "https://images.ctfassets.net/x7j9qwvpvr5s/VHOopIiazWZ7RFWig61gd/25cec23c87f1be55054bfb177998416e/DESERT_X_TURNTABLE_VER_G_00.png?w=1920&fm=webp&q=95",
+    brand: "Hytera",
+    model: "PNC 550",
+    photo: "https://hytera-europe.com/imager/images/31472/PNC550-main-image_f9d35c2e75cded6d5435415681c0a155.png",
     power: 110,
     weight: 202,
     price: 150,
-    description: "Exploration. Fun. Performance. And a great desire to take and leave towards the horizon. The identity of this bike leaves no room for doubt: just looking at it, it brings you into the atmosphere of Dakar racing."
-  },
-  {
-    brand: "Ducati",
-    model: "Streetfighter V4 Lamborghini",
-    photo: "https://images.ctfassets.net/x7j9qwvpvr5s/5Gi60AYlhTtVpsZL28WDki/d2881859b17b558aabc25653850f2f04/SFV4_LAMBO_SPIN_00.png?w=1920&fm=webp&q=95",
-    power: 208,
-    weight: 178,
-    price: 310,
-    description: "The second chapter of the collaboration between two brands that have contributed to writing the history of Motor Valley, gives birth to the new Ducati Streetfighter V4 Lamborghini, with a dedicated livery and a specially designed dressing to recall the design of the famous Lamborghini Huracán STO (Super Trofeo homologated)."
-  },
-  {
-    brand: "Ducati",
-    model: "Panigale V4 R",
-    photo: "https://images.ctfassets.net/x7j9qwvpvr5s/785XKRCdpoCCJBmkJBag9x/65cbac2f5e2d40201f845ccd68bbb46c/PANV4R_SPIN_SCARICO_ALTO_E_FRIZIONE_00.png?w=1920&fm=webp&q=95",
-    power: 237,
-    weight: 167,
-    price: 330,
-    description: "Ducati presents the new Panigale V4 R: the bike that adopts technical solutions previously reserved for MotoGP and WorldSBK Championship. The closest production model to a competition bike ever."
+    description: "El PNC550 es un terminal PoC que integra las funciones de un smartphone y Pulsar para Hablar profesional sobre una funcionalidad de celular."
   },
 ])
 
