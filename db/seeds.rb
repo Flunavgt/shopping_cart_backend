@@ -33,7 +33,7 @@ Bike.create([
   {
     brand: "Hytera",
     model: "PNC 380",
-    photo: "https://images.hytera.us/images/PNC380_Highlights.png?auto=compress%2Cformat&fit=max&h=460&q=80&w=830&s=22d1c252ae5cbe1eedb724c1557819e5",
+    photo: "https://hyterakuwait.com/wp-content/uploads/2021/06/PNC380-Main-image_f9d35c2e75cded6d5435415681c0a155.png",
     power: 3,
     weight: 211,
     price: 180,
