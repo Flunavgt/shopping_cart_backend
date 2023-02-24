@@ -47,3 +47,40 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_01_161631) do
   add_foreign_key "reservations", "bikes"
   add_foreign_key "reservations", "users"
 end
+
+# Table "products" {
+#   "id" varchar
+#   "brand" string
+#   "model" string
+#   "photo" string
+#   "power" integer
+#   "weight" integer
+#   "price" integer
+#   "price_two" integer
+#   "created_at" datetime
+#   "updated_at" datetime
+#   "description" text
+# }
+
+# Table "operations" {
+#   "id" varchar
+#   "user_id" bigint
+#   "producto_id" bigint
+#   "Units" integer
+#   "created_at" datetime
+#   "updated_at" datetime
+#   "start_date" datetime
+#   "end_date" datetime
+#   "type" string
+# }
+
+# Table "users" {
+#   "id" varchar
+#   "name" string
+#   "email" string
+#   "created_at" datetime
+#   "updated_at" datetime
+# }
+
+# Ref: operations.producto_id < products.id
+# Ref: users.id < operations.user_id
