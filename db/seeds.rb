@@ -8,7 +8,7 @@
 
 User.create(name: "TestUser")
 
-Bike.create([
+Product.create([
   {
     brand: "Hytera",
     model: "PNC 360",
@@ -71,4 +71,4 @@ Bike.create([
   },
 ])
 
-Reservation.create(user_id: User.first.id, bike_id: Bike.first.id, start_date: "27/06/2023", end_date: "27/06/2023", location: "Guatemala")
+Operation.create(user_id: User.first.id, product_id: Product.first.id, start_date: "27/06/2023", end_date: "27/06/2023", location: "Guatemala")

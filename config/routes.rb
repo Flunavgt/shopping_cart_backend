@@ -8,10 +8,10 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :users, only: [:index, :create] do 
-        resources :reservations, except: [:update]
+        resources :operations, except: [:update]
       end
       post 'login', to: 'users#login'
-      resources :bikes, except: [:update]
+      resources :products, except: [:update]
     end
   end 
 end

@@ -1,5 +1,5 @@
-class Bike < ApplicationRecord
-  has_many :reservations, dependent: :destroy
+class Product < ApplicationRecord
+  has_many :operations, dependent: :destroy
 
   validates :brand, :model, :photo, :power, :weight, :price, :description, presence: true
 end
