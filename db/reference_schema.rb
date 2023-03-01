@@ -14,7 +14,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_01_161631) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "bikes", force: :cascade do |t|
+  create_table "products", force: :cascade do |t|
     t.string "brand"
     t.string "model"
     t.string "photo"
@@ -26,16 +26,16 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_01_161631) do
     t.text "description"
   end
 
-  create_table "reservations", force: :cascade do |t|
+  create_table "operations", force: :cascade do |t|
     t.bigint "user_id", null: false
-    t.bigint "bike_id", null: false
+    t.bigint "product_id", null: false
     t.string "location"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.datetime "start_date"
     t.datetime "end_date"
-    t.index ["bike_id"], name: "index_reservations_on_bike_id"
-    t.index ["user_id"], name: "index_reservations_on_user_id"
+    t.index ["product_id"], name: "index_operations_on_product_id"
+    t.index ["user_id"], name: "index_operations_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -44,8 +44,8 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_01_161631) do
     t.datetime "updated_at", null: false
   end
 
-  add_foreign_key "reservations", "bikes"
-  add_foreign_key "reservations", "users"
+  add_foreign_key "operations", "products"
+  add_foreign_key "operations", "users"
 end
 
 # Table "products" {
