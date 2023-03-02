@@ -31,6 +31,6 @@ class Api::V1::OperationsController < ApplicationController
   private
 
   def operation_params
-    params.require(:operation).permit(:product_id, :start_date, :end_date, :location, :user_id)
+    params.require(:operation).permit(:product_id, :start_date, :end_date, :type_of_operation, :unit, :user_id)
   end
 end

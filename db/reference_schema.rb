@@ -29,7 +29,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_01_161631) do
   create_table "operations", force: :cascade do |t|
     t.bigint "user_id", null: false
     t.bigint "product_id", null: false
-    t.string "location"
+    t.string "type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.datetime "start_date"

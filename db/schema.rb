@@ -17,7 +17,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_01_034230) do
   create_table "operations", force: :cascade do |t|
     t.bigint "user_id", null: false
     t.bigint "product_id", null: false
-    t.string "type"
+    t.string "type_of_operation"
     t.integer "units"
     t.datetime "start_date"
     t.datetime "end_date"

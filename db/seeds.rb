@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-User.create(name: "TestUser")
+User.create(name: "TestUser", email: "test@test.com", password: "123456")
 
 Product.create([
   {
@@ -71,4 +71,4 @@ Product.create([
   },
 ])
 
-Operation.create(user_id: User.first.id, product_id: Product.first.id, start_date: "27/06/2023", end_date: "27/06/2023", location: "Guatemala")
+Operation.create(user_id: User.first.id, product_id: Product.first.id, start_date: "27/06/2023", end_date: "27/06/2023", type_of_operation: "renta")
