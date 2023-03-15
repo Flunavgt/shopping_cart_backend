@@ -1,4 +1,6 @@
 class Api::V1::ProductsController < ApplicationController
+  before_action :authenticate_user!
+
   # GET /api/v1/products
   def index
     @products = Product.all

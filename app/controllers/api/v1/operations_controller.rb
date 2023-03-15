@@ -1,4 +1,6 @@
 class Api::V1::OperationsController < ApplicationController
+  before_action :authenticate_user!
+
   # get /api/v1/users/1/operations
   def index
     p params[:user_id]
