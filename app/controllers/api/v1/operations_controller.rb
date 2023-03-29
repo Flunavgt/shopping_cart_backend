@@ -1,7 +1,9 @@
 class Api::V1::OperationsController < ApplicationController
+  before_action :authenticate_user!
+
   # get /api/v1/users/1/operations
   def index
-    p params[:user_id]
+    # p params[:user_id]
     operations = Operation.where(user_id: params[:user_id])
     render json: operations, status: :ok
   end
